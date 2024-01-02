@@ -8,7 +8,7 @@
     display: grid;
     grid-template-rows: repeat(5, 1fr);
     grid-template-columns: repeat(4, 1fr);
-    height: 100vh;
+    height: 124px;
 }
 
 div {
@@ -16,7 +16,6 @@ div {
     color: white;
     font-size: 4vw;
     border: 5px solid white;
-	height: 124px;
 }
 
 #grid > div:nth-child(1) {
