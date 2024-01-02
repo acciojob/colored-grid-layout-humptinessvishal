@@ -1,1 +1,36 @@
 /*  your css code here. If applicable */
+
+body {
+	margin: 0;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    height: 100vh;
+}
+
+div {
+    background-color: green;
+    color: white;
+    font-size: 4vw;
+    border: 5px solid white;
+}
+
+.item1 {
+	grid-column: span 4;
+}
+
+.item2 {
+	grid-row: span 4;
+}
+
+.item4 {
+	grid-column: span 2;
+}
+
+.item5 {
+	grid-column: span 2;
+}
+
+.item10 {
+	grid-column: span 3;
+}
