@@ -1,4 +1,8 @@
 /*  your css code here. If applicable */
+.body{
+	margin: 0;
+	padding: 0;
+}
 
  #grid{
     display: grid;
@@ -12,6 +16,8 @@ div {
     color: white;
     font-size: 4vw;
     border: 5px solid white;
+	height: 100%;
+	width: 100%;
 }
 
 #grid > div:nth-child(1) {
